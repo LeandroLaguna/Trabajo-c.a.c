@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Travel - Registro</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="form-container">
+        <p class="title">Registro</p>
+        <form id="signupForm" class="form">
+            <div class="input-group">
+                <label for="username">Usuario</label>
+                <input type="text" name="username" id="username" placeholder="">
+                <span id="usernameError" class="error"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" name="email" id="email" placeholder="">
+                <span id="emailError" class="error"></span>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="">
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirmar Contraseña</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="">
+                <span id="confirmPasswordError" class="error"></span>
+            </div>
+            <button type="submit" class="sign">Registrarse</button>
+            <div id="signupError" class="error"></div>
+        </form>
+        <p class="login">Ya tienes una cuenta?
+            <a rel="noopener noreferrer" href="login.html">Inicia Sesión</a>
+        </p>
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+</html>
